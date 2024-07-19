@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: rgba(28, 28, 40, 1);
+  
+  }
+  #wrapper{
+    /* width:1440px;
+    height: 120px;
+    padding: 24px 32px 24px 32px; */
+    width: Fixed (1,440px)px;
+    height: Hug (120px)px;
+    padding: 24px 32px 24px 32px;
+    gap: 0px;
+    opacity: 0px;
+  
+    background: rgba(28, 28, 40, 1);
+  
+  }
+  
+  #link{
+    width: Hug (711px)px;
+    height: Hug (48px)px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    gap: 0px;
+    opacity: 0px;   
+   float: right;
+  }
+  #Logo{
+    width: 120px;
+    height: 72px;
+    padding: 3px 4px 3.9px 4px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(28, 28, 40, 1);
+   float: left;
+  }
+  #main-menu {
+    display: flex;
+  }
+  #toggle {
+    display: none;
+    background: rgba(28, 28, 40, 1);
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    width: Hug (122px)px;
+    height: Hug (40px)px;
+    gap: 16px;
+    opacity: 0px;
+  
+  }
+  div button{
+    width: Hug (66px)px;
+  height: Hug (40px)px;
+  padding: 10px 14px 10px 14px;
+  gap: 10px;
+  border-radius: 7.29px ;
+  opacity: 0px;
+  
+  }
+  
+  .button{
+    width: Hug (141px)px;
+  height: Hug (48px)px;
+  padding: 12px 16px 12px 16px;
+  gap: 10px;
+  border-radius: 7.29px;
+  opacity: 0px;
+  float: left;
+  
+  }
+  div div div img{
+    width: 112px;
+    height: 65.1px;
+    margin-top: 4px;
+    margin-left: 3px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  div nav ul{
+  display: flex;
+  list-style: none;
+  }
+  div nav ul li{
+    width: Hug (228px)px;
+    height: Hug (48px)px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    
+  }
+  a{
+    text-decoration: none;
+    color:rgba(200, 199, 216, 1);
+    font-size: 16px;
+  }
+  @media screen and (max-width: 901px) {
+    #main-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    #toggle {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+  }
+  /* section{
+    height: 100vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  #intro{
+    background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-blue-simple-fashion-web-page-picture-image_923683.jpg);
+    background-repeat: round;
+    height: 250px;
+  }
+  #title{
+    background-repeat: round;
+    height: 180px;
+    background-color: slategrey;
+  }
+  #about{
+    background-color: bisque;
+  }
+  #contact{
+    background-color: blanchedalmond;
+  }
+  .container{
+  margin-top: 10%;
+  margin-left: 10px;
+  }
+  .image{
+    margin-top: 25%;
+    margin-left: 10px;  
+  }
+  .name{
+    margin-top: 23%;
+    margin-left: 4px;  
+  } */
+    
+  /* div img{ 
+    margin-left: 0%;
+    height: 200px;
+    width: 200px;
+    border-radius:20px 20px ; 
+    clip-path: circle(50%);
+  } */
+  /* .Container h2{
+    margin-top: 3%;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    }
+  .container p, ul{
+    margin-top: 2%;
+    font-size: 1.5rem;
+  }
+  footer{
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+  } */
+  /* .circle {
+    background: #456BD9;
+    clip-path: circle(50%);
+    height: 300px;
+    width: 300px;
+  } */
+  
