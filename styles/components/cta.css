@@ -1,0 +1,39 @@
+.cta {
+  background: var(--gradient-brand);
+  border-radius: 16px;
+  border: 1px solid var(--gradient-border);
+  padding: 40px 16px;
+}
+
+.cta-header {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.017em;
+  text-align: center;
+  color: var(--color-text-primary);
+}
+
+.cta-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.011em;
+  text-align: center;
+  color: var(--color-text-primary);
+}
+
+.btn.btn-cta {
+  background-color: #fff;
+  color: var(--color-accent-brand);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.011em;
+  text-align: center;
+}
+
+.btn.btn-cta:hover {
+  background-color: var(--color-accent-brand-hover);
+  color: var(--color-text-primary);
+}

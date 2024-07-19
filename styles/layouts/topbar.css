@@ -1,0 +1,18 @@
+.topbar {
+  display: flex;
+  padding: 16px 0;
+}
+
+.topbar > .topbar-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.topbar-btn {
+  margin-right: 16px;
+}
+
+.topbar-more-icon {
+  padding: 12px;
+}

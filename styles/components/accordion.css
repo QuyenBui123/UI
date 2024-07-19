@@ -1,0 +1,24 @@
+.accordion {
+  padding: 17px 0;
+  border: 1px solid var(--color-border);
+  border-left: transparent;
+  border-right: transparent;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+}
+
+.accordion-header > .accordion-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.011em;
+  text-align: left;
+  color: var(--color-text-primary);
+}
+
+.accordion-header > .accordion-icon-right {
+  margin-left: auto;
+}
