@@ -1,0 +1,239 @@
+.Content{
+    width: 1440px;
+    height: 264px;
+    gap: 80px;
+    float: left;
+    &__title{
+width: 808px;
+height: 144px;
+gap: 40px;
+margin-left: 316px;
+margin-top: 80px;
+
+&--dis1{
+    font-family: Circular Std;
+
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.022em;
+    text-align: center;
+    color:$white_color;
+    width: 683px;
+    height: 72px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 62.5px;
+    }
+&--dis2{
+
+font-family: Circular Std;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.014em;
+text-align: center;
+color:$text_header;
+width: 808px;
+height: 48px;
+gap: 0px;
+opacity: 0px;
+margin-top: 24px;
+
+
+}
+    }
+    
+}
+.Filter{
+    width: 1440px;
+    height: 48px;
+    gap: 80px;
+    float: left;
+    &__button{
+width: 395px;
+height: 48px;
+gap: 24px;
+margin-left: 522.5px;
+
+&--all{
+    width: 52px;
+    height: 48px;
+    gap: 4px;
+    border-radius: 7.29px;
+    padding: 12px 16px 12px 16px;
+    gap: 4px;
+    opacity: 0px;
+    background-color: $button_color_1;
+    color: $white_color;
+    border: none;
+}
+&--open{
+    width: 72px;
+    
+}
+&--funded{
+    width: 86px;
+    
+}
+&--complete{
+    width: 113px;
+    
+}
+&--open,&--funded,&--complete{
+    margin-left: 19px;
+    height: 48px;
+    padding: 12px 16px 12px 16px;
+    gap: 4px;
+    border-radius: 7.29px;
+    opacity: 0px;
+    color: $white_color;
+    background-color: transparent;
+    border: none;
+    border: 0;
+}
+    }
+    
+}
+
+.Discover{
+    width: 1,440px;
+    height:1,912px;
+    gap: 24px;
+    opacity: 0px;
+    float: left;
+    &__Frame{
+        width: 808px;
+        height:1,752px;
+        gap: 24px;
+        opacity: 0px;
+        margin-top: 80px;
+        margin-left: 316px;
+        float: left;
+    
+    &--content{
+        width: 808px;
+        height: 168px;
+        border-radius: 16px;
+        gap: 32px;
+        opacity: 0px;
+        background-color: $button_color_1;
+        float: left;
+}   &--content1{
+    width: 808px;
+    height: 144px;
+    border-radius: 16px;
+    gap: 32px;
+    opacity: 0px;
+    background-color: $button_color_1;
+    float: left;
+}   
+    
+    }
+    &__Frame +&__Frame{
+        margin-top: 24px;
+    }
+   
+}
+.content-title{
+    width:643px;
+    height:120px;
+    gap: 8px;
+    opacity: 0px;   
+    margin-left: 24px;
+    margin-top: 24px;
+    background-color: $button_color_1;
+    float: left;
+
+    &__fun1{
+        //styleName: Desktop/Heading Medium;
+        font-family: Circular Std;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.019em;
+        text-align: left;
+        background-color: $button_color_1;
+        color: $white_color;
+
+    }
+    &__fun2{
+        //styleName: Desktop/Paragraph Medium;
+        font-family: Circular Std;
+        font-size: 16px;
+        font-weight: 450;
+        line-height: 24px;
+        letter-spacing: -0.011em;
+        text-align: left;
+        margin: 8px 8px 0px 0px;
+        background-color: $button_color_1;
+        color: $white_color;
+
+    }
+    &__fun3{
+        //styleName: Desktop/Mono Paragraph Medium;
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        float: left;
+        margin: 8px 8px 0px 0px;
+        background-color: $button_color_1;
+        color: $text_header;
+
+    }
+    &__fun4{
+        //styleName: Desktop/Mono Paragraph Medium;
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        float: left;
+        margin-left: 8px;
+        margin-top: 8px;
+        background-color: $button_color_1;
+        color: $text_header;
+    }
+    &__fun5{
+        //styleName: Desktop/Paragraph Medium;
+        font-family: Circular Std;
+        font-size: 16px;
+        font-weight: 450;
+        line-height: 24px;
+        letter-spacing: -0.011em;
+        text-align: left;
+        margin: 0px 8px 0px 0px;
+        background-color: $button_color_1;
+        color: $white_color;
+    }
+}
+.badge{
+    width: 85px;
+    height: 32px;
+    padding: 4px 16px 4px 16px;
+    gap: 16px;
+    border-radius: 100px ;
+    border: 1px;
+    opacity: 0px;
+    margin-top: 24px;
+    
+    background-color:$black;
+    float: left;
+
+    &__text{
+
+    font-family: Circular Std;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    color:  $white_color;
+    background-color:$black ;
+    }
+
+}
+
+
