@@ -238,3 +238,12 @@ margin-top: 24px;
 .badge1{
     background-color:$button_color;
 }
+.badge2{
+    width: 136px;
+    background-color:$color-accent-green;
+    & > img{
+        margin-left: 8px;
+        margin-top: 4px;
+    }
+}
+

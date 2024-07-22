@@ -372,6 +372,15 @@ html {
   background-color: #6966FF;
 }
 
+.badge2 {
+  width: 136px;
+  background-color: #16b57f;
+}
+.badge2 > img {
+  margin-left: 8px;
+  margin-top: 4px;
+}
+
 /* Space Mono font */
 /* Nanum Pen Script font */
 /* CircularStd font */
