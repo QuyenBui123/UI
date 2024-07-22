@@ -1,0 +1,132 @@
+// @mixin initial-card($height, $width: 100%) {
+//     background-color: $color-bg-secondary;
+//     border-radius: 16px;
+//     border: 1px solid $gradient-border;
+//     transition: background-color 0.3s;
+//     width: $width;
+//     height: $height;
+//     display: flex;
+//     flex-direction: column;
+  
+//     &:hover {
+//       background-color: $color-bg-secondary-hover;
+//     }
+//   }
+  
+//   .card {
+//     flex-shrink: 0;
+//     max-width: 100%;
+//     @include initial-card(480px);
+//     &--subtext {
+//       @include text-mono-md;
+//     }
+  
+//     &__img {
+//       height: 136px;
+//       background-color: $color-bg-img;
+//       border-radius: 16px;
+//     //   @include media-query("md") {
+//     //     height: 180px;
+//     //   }
+//     }
+  
+//     &__header {
+//       padding: 16px;
+//     }
+  
+//     &__content {
+//       padding: 16px;
+//       flex: 1;
+//     }
+  
+//     &__content-text {
+//       @include text-paragraph-md;
+//       overflow: hidden;
+//       text-overflow: ellipsis;
+//     }
+  
+//     &:has(&__img) &__content-text {
+//       height: 60px;
+//     }
+  
+//     &__footer {
+//       padding: 16px;
+//       @include text-paragraph-md;
+//     //   @include media-query("md") {
+//     //     @include text-mono-md;
+//     //   }
+//     }
+  
+//     &.card--blog {
+//       height: unset;
+//       width: 100%;
+//       .card {
+//         &__content {
+//           height: 128px;
+//           & > *:not(:last-child) {
+//             margin-bottom: 8px;
+//           }
+//         }
+//       }
+//     }
+  
+//     &.card--rfp {
+//       width: 100%;
+//       height: unset;
+//     //   @include media-query("md") {
+//     //     display: flex;
+//     //     flex-direction: row;
+//     //   }
+//       .card {
+//         &__content {
+//           padding: 24px;
+//           padding-bottom: 16px;
+//         }
+  
+//         &__footer {
+//           padding: 24px;
+//           padding-top: 0;
+//         //   @include media-query("md") {
+//         //     padding-top: 24px;
+//         //   }
+//         }
+//       }
+//     }
+  
+//     &.card--process {
+//       position: relative;
+//       height: 320px;
+  
+//       .card--process {
+//         &-sketch {
+//           position: absolute;
+//           top: 0;
+//           left: 0;
+//           transform: translateY(-80%);
+//         }
+  
+//         &-num {
+//           display: inline-block;
+//           font-size: 48px;
+//           font-weight: 400;
+//           line-height: 60px;
+//           text-align: center;
+//           font-family: $font-number;
+//         }
+//       }
+//     }
+  
+//     @for $i from 1 through 360 {
+//       &--rotate-#{$i} {
+//         transform: rotate(#{$i}deg);
+//       }
+//       &--rotate-#{$i}-reverse {
+//         transform: rotate(-#{$i}deg);
+//       }
+//     }
+  
+//     // @include media-query("md") {
+//     //   height: 560px;
+//     //   width: 392px;
+//     // }
+//   }

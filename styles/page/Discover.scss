@@ -4,15 +4,14 @@
     gap: 80px;
     float: left;
     &__title{
-width: 808px;
-height: 144px;
-gap: 40px;
-margin-left: 316px;
-margin-top: 80px;
+    width: 808px;
+    height: 144px;
+    gap: 40px;
+    margin-left: 316px;
+    margin-top: 80px;
 
 &--dis1{
     font-family: Circular Std;
-
     font-size: 60px;
     font-weight: 700;
     line-height: 72px;
@@ -51,10 +50,10 @@ margin-top: 24px;
     gap: 80px;
     float: left;
     &__button{
-width: 395px;
-height: 48px;
-gap: 24px;
-margin-left: 522.5px;
+    width: 395px;
+    height: 48px;
+    gap: 24px;
+    margin-left: 522.5px;
 
 &--all{
     width: 52px;
@@ -231,9 +230,11 @@ margin-left: 522.5px;
     letter-spacing: -0.011em;
     text-align: center;
     color:  $white_color;
-    background-color:$black ;
+    
     }
 
 }
 
-
+.badge1{
+    background-color:$button_color;
+}
