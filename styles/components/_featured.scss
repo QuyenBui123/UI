@@ -3,6 +3,8 @@
         max-width: 600px;
         margin: auto;
         text-align: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
 
         &--image {
             margin-top: 78px;
@@ -12,7 +14,21 @@
             width: 62.5px;
             height: 60px;
             margin-top: -35px;
-            margin-left: 405px;
+            margin-left: -4px;
+        }
+        &--image-line2 {
+            width: 161px;
+            height: 26px;
+            position: absolute;
+            margin-top: 48px;
+            margin-left: 327px;
+        }
+        &--image-oval {
+            width: 230px;
+            height: 64px;
+            margin-top: -8px;
+            margin-left: 329px;
+            position: absolute;
         }
 
         &--body {
@@ -45,59 +61,58 @@
                 justify-content: center;
                 cursor: pointer;
             }
+            .title_whatnew {
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                justify-items: center;
+            }
         }
     }
 }
-.grants {
-    &__container {
-        max-width: 1640px;
-        margin: auto;
-        text-align: center;
-        margin-left: 108px;
-        margin-top: 80px;
-        &--list-card {
-            width: 1224px;
-            height: 560px;
-            display: flex;
-        }
-    }
-}
-.card {
-    width: 392px;
-    border-radius: 16px;
-    background-color: $color-bg-secondary-hover;
-    &__content {
-        text-align: left;
-        width: 344px;
-        height: 448px;
-        margin: 24px 24px;
-
-        &--img {
-            width: 392px;
-            height: 178.98px;
-            margin: -24px 0px 24px -24px;
-            border-radius: 16px;
-            background-color: $color-bg-img;
-        }
-    }
-    &__footer {
-        padding: 16px;
-    }
-}
-.card + .card {
-    margin-left: 24px;
+.funded-grants {
+    width: 1640px;
+    margin-left: 80px;
 }
 .mt {
     margin-top: 48px;
 }
 .what-new {
+    margin-top: 160px;
+}
+.what-new1 {
     width: 600px;
     height: 160px;
+    margin-top: 160px;
+}
+.frequentlyfqa {
+    display: inline;
+    justify-items: center;
     margin-top: 80px;
 }
-.content__title--images {
-    width: 62.5px;
-    height: 60px;
-    margin-top: -45px;
-    margin-left: 405px;
+.frequently {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.frequently__fqa {
+    gap: 24px;
+    width: 808px;
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+
+    &--seprator {
+        height: 1px;
+    }
+    &--row {
+        margin-top: 25px;
+        margin-bottom: 24px;
+        display: flex;
+        & > img {
+            float: right;
+            width: 24px;
+            height: 24px;
+        }
+    }
 }
