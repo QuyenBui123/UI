@@ -60,11 +60,12 @@
         &--list-card{
             width: 1224px;
             height: 560px;
+            display: flex;
         }
     }
 }
 .card{
-    float: left;
+    
     width: 392px;
     border-radius: 16px;
     background-color: $color-bg-secondary-hover;

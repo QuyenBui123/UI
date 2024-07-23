@@ -65,3 +65,17 @@
     margin-top: 40px;
     margin-right: 108px;
 }
+@media all and (max-width: 1000px) {
+    .footer{
+        &-menu{
+            display: inline;
+            &-item {
+                text-decoration: none;
+                margin-bottom: 24px;
+            }
+        }
+    }
+    .footer__container {
+        display: inline;
+    }
+  }
