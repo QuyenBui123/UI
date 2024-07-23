@@ -13,6 +13,22 @@
         text-align: center;
         font-family: Circular, sans-serif;
     }
+    &__titledis {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 72px;
+        color: $white_color;
+        text-align: center;
+        font-family: Circular, sans-serif;
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color:$text_header ;
+        text-align: center;
+        font-family: Circular, sans-serif;
+    }
 
     &__linetext {
         max-width: 100%;

@@ -2,10 +2,9 @@
     // height: 180px;
     margin-top: 24px;
     position: relative;
-    &__logo{
+    &__logo {
     }
     &-menu {
-    
         display: flex;
         align-items: center;
         justify-content: left;
@@ -14,11 +13,10 @@
 
         &-item {
             text-decoration: none;
-            
         }
-        
+
         &-link {
-            font-family: 'Space Mono', monospace;
+            font-family: "Space Mono", monospace;
             text-decoration: none;
             color: $text_header;
             font-size: 16px;
@@ -28,11 +26,11 @@
             cursor: pointer;
             margin-left: 32px;
         }
-        
+
         &-button {
             background-color: $button_color;
             padding: 16px 12px;
-            font-family: 'Circular', sans-serif;
+            font-family: "Circular", sans-serif;
             font-size: 16px;
             color: $white_color;
             border-radius: 7.29px;
@@ -46,9 +44,8 @@
             }
         }
     }
-    &-icon{
-        
-        & > img{
+    &-icon {
+        & > img {
             margin-left: 32px;
         }
     }
@@ -65,9 +62,9 @@
     margin-top: 40px;
     margin-right: 108px;
 }
-@media all and (max-width: 1000px) {
-    .footer{
-        &-menu{
+@media all and (max-width: 876px) {
+    .footer {
+        &-menu {
             display: inline;
             &-item {
                 text-decoration: none;
@@ -77,5 +74,7 @@
     }
     .footer__container {
         display: inline;
+        justify-content: center;
+        justify-items: center;
     }
-  }
+}
