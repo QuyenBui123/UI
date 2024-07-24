@@ -101,7 +101,6 @@
     display: inline;
     justify-content: center;
     justify-items: center;
-
     &--seprator {
         height: 1px;
         background-color: $color-bg-secondary;
@@ -110,8 +109,10 @@
         margin-top: 25px;
         margin-bottom: 24px;
         display: flex;
+        position: relative;
         & > img {
-            float: right;
+            position: absolute;
+            right: 10px;
             width: 24px;
             height: 24px;
         }

@@ -141,61 +141,6 @@
     margin-top: 16px;
     color: $white-color;
 }
-
-//blog
-
-.blog-project {
-    justify-content: center;
-    justify-items: center;
-    display: inline;
-    .project {
-        justify-content: center;
-        justify-items: center;
-        gap: 24px;
-        display: flex;
-        margin-top: 80px;
-        &__card {
-            width: 392px;
-            height: 560px;
-            border-radius: 16px;
-            border: none;
-            background-color: $color-bg-secondary;
-            &--content {
-                height: auto;
-                gap: 16px;
-                text-align: left;
-                display: inline;
-                & > img {
-                    max-width: 100%; // Cho phép hình ảnh thu nhỏ theo chiều rộng của container
-                    height: auto;
-                    border-radius: 16px;
-                    text-align: center;
-                    justify-content: center;
-                    display: flex;
-                }
-            }
-            &--icon {
-                margin-left: 24px;
-                margin-top: 24px;
-                display: flex;
-                width: 26px;
-                height: 32px;
-                margin-top: 24px;
-                & > img {
-                    border-radius: 100%;
-                    margin-right: -18px;
-                    &:last-child {
-                        margin-right: 0;
-                    }
-                }
-            }
-        }
-    }
-    .project + .project {
-        margin-top: 24px;
-    }
-}
-
 // application prject
 .application-project {
     justify-content: center;
