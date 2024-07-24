@@ -1,0 +1,30 @@
+.title__janecooper {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.022em;
+    text-align: center;
+    color: $white_color;
+    margin-left: 60px;
+}
+.title-grantee {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    max-width: 808px;
+}
+.content__grantee {
+    display: inline;
+    justify-content: center;
+    justify-items: center;
+    &--about {
+        margin-top: 40px;
+        text-align: left;
+        justify-content: center;
+        justify-items: center;
+        & > h3 {
+            text-align: left;
+            margin-bottom: 16px;
+        }
+    }
+}

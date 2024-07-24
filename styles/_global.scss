@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
     margin: 0;
@@ -10,7 +10,7 @@ html {
     border: 3px none var(--medium-slate-blue);
     background-color: $black;
     color: $thistle;
-    letter-spacing: -.022em;
+    letter-spacing: -0.022em;
     background-image: url(../assets/images/background.svg);
     background-position: 50% 0;
     background-repeat: repeat-x;
@@ -24,5 +24,8 @@ html {
 .container {
     max-width: 1376px;
     margin: auto;
-
+}
+.container1 {
+    max-width: 1376px;
+    margin: auto;
 }

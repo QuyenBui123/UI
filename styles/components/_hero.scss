@@ -2,9 +2,7 @@
     max-width: 808px;
     margin-top: 80px;
 }
-
 .container {
-
     &__title {
         font-weight: 700;
         font-size: 80px;
@@ -21,12 +19,28 @@
         text-align: center;
         font-family: Circular, sans-serif;
     }
-    &__text{
+    &__titledis1 {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 72px;
+        color: $white_color;
+        text-align: left;
+        font-family: Circular, sans-serif;
+    }
+    &__text {
         font-weight: 400;
         font-size: 18px;
         line-height: 24px;
-        color:$text_header ;
+        color: $text_header;
         text-align: center;
+        font-family: Circular, sans-serif;
+    }
+    &__text1 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: $text_header;
+        text-align: left;
         font-family: Circular, sans-serif;
     }
 
@@ -46,20 +60,21 @@
         justify-content: center;
         gap: 32px;
 
-        &--discover, &--apply {
-            font-weight:500;
+        &--discover,
+        &--apply {
+            font-weight: 500;
             font-size: 16px;
             line-height: 24px;
             text-align: center;
-            font-family: 'Circular', sans-serif;
+            font-family: "Circular", sans-serif;
             cursor: pointer;
-            
+
             &:hover {
                 opacity: 0.8;
             }
         }
 
-        &--discover{
+        &--discover {
             background-color: $button_color_1;
             color: $white_color;
             padding: 12px 39px;
@@ -83,11 +98,9 @@
         align-items: center;
         justify-content: space-between;
 
-        &--item{
+        &--item {
             font-family: "Space Mono", monospace;
             text-align: center;
-
-
 
             .number-quantity {
                 font-weight: 400;
@@ -104,7 +117,4 @@
             }
         }
     }
-
 }
-
-
