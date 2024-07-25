@@ -127,6 +127,188 @@
         }
     }
 }
+.blog-funded-project {
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+    margin-left: 32px;
+    .blog-funded {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        margin-right: 24px;
+        // margin-top: 80px;
+        &__card {
+            width: 392px;
+            height: 440px;
+            border-radius: 16px;
+            border: none;
+            background-color: $color-bg-secondary;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            cursor: pointer;
+            &--content {
+                width: 100%;
+                gap: 16px;
+                text-align: left;
+                & > img {
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 16px;
+                }
+            }
+            &--link {
+                text-decoration: none;
+                color: inherit;
+                display: block;
+            }
+
+            &--icon {
+                position: absolute;
+                bottom: 24px;
+                left: 24px;
+                // margin-left: 24px;
+                // margin-top: 24px;
+                display: flex;
+                & > img {
+                    border-radius: 100%;
+                    margin-right: -12px;
+                    width: 32px;
+                    height: 32px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        &__card1 {
+            width: 392px;
+            height: 250px;
+            border-radius: 16px;
+            border: none;
+            background-color: $color-bg-img;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            &--content {
+                position: absolute;
+                left: 129px;
+                top: 86px;
+                width: 100%;
+                gap: 16px;
+                text-align: left;
+                & > img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+
+            &--icon {
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                // margin-left: 24px;
+                // margin-top: 24px;
+                display: flex;
+                & > img {
+                    border-radius: 100%;
+                    margin-right: -12px;
+                    width: 44px;
+                    height: 44px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        &__text {
+            font-size: 16px;
+            font-weight: 450;
+            line-height: 24px;
+            color: $white_color;
+        }
+        &__text1 {
+            margin-top: 16px;
+            font-size: 14px;
+            font-weight: 450;
+            line-height: 24px;
+            color: $white_color;
+        }
+    }
+    .blog-funded + .blog-funded {
+        .blog-funded__card1 {
+            background-color: $white_color;
+        }
+        // margin-top: 24px;
+    }
+    .project1 {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        margin-right: 24px;
+        // margin-top: 80px;
+        &__card1 {
+            width: 253px;
+            height: 178px;
+            border-radius: 16px;
+            border: none;
+            background-color: $white_color;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            &--content {
+                position: absolute;
+                left: 82.5px;
+                top: 46px;
+                width: 100%;
+                gap: 16px;
+                text-align: left;
+                & > img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+
+            &--icon {
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                // margin-left: 24px;
+                // margin-top: 24px;
+                display: flex;
+                & > img {
+                    border-radius: 100%;
+                    margin-right: -12px;
+                    width: 44px;
+                    height: 44px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        &__text {
+            font-size: 16px;
+            font-weight: 450;
+            line-height: 24px;
+            color: $white_color;
+        }
+    }
+    .project + .project {
+        .project__card1 {
+            background-color: $white_color;
+        }
+        // margin-top: 24px;
+    }
+}
 @media (max-width: 768px) {
     .content__container {
         display: inline;

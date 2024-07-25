@@ -29,6 +29,7 @@
         &__growth,
         &__analytics,
         &__third {
+            cursor: pointer;
             gap: 4px;
             font-size: 16px;
             border-radius: 7.29px;
@@ -37,6 +38,9 @@
             color: $white_color;
             border: none;
             border: 0;
+            &:hover {
+                background-color: $color-bg-secondary;
+            }
         }
     }
 }
@@ -147,11 +151,35 @@
     justify-items: center;
     display: inline;
     .project {
+        position: relative;
         justify-content: center;
         justify-items: center;
         gap: 24px;
         display: flex;
         margin-top: 80px;
+        &__img {
+            height: auto;
+            max-width: 100%;
+            position: absolute;
+            left: -30%;
+            top: -26%;
+        }
+        &__img1 {
+            position: absolute;
+            left: -22%;
+            bottom: -67%;
+        }
+        &__img2 {
+            position: absolute;
+            display: none;
+            left: 9%;
+            top: -62%;
+        }
+        &__img3 {
+            position: absolute;
+            display: none;
+            top: -62%;
+        }
         &__card {
             width: 392px;
             height: 560px;
@@ -161,6 +189,7 @@
             background-color: $color-bg-secondary;
             &--content {
                 height: auto;
+                position: relative;
                 gap: 16px;
                 text-align: left;
                 display: inline;
@@ -174,6 +203,9 @@
                     margin-top: 29.81px;
                     margin-left: 24.42px;
                 }
+                & > h4 {
+                    margin-top: 26px;
+                }
             }
         }
     }
@@ -182,7 +214,7 @@
     }
 }
 .card_content {
-    margin-top: 136.4px;
+    margin-top: 25.99px;
     margin-left: 26.37px;
     & > h4 {
         margin-bottom: 16px;
@@ -198,8 +230,101 @@
     transform: rotate(-1deg);
 }
 .app-card1 {
+    position: relative;
+    margin-top: 32px;
     transform: rotate(4deg);
 }
 .app-card2 {
+    position: relative;
     transform: rotate(-2deg);
+}
+/* btn switch*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 14px;
+    top: 3px;
+
+    margin-right: 16px;
+}
+
+.switch input {
+    display: none;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    bottom: -2px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #2196f3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+@media (max-width: 768px) {
+    .application-project {
+        justify-content: center;
+        justify-items: center;
+        display: inline;
+        .project {
+            position: relative;
+            justify-content: center;
+            justify-items: center;
+            gap: 24px;
+            display: flex;
+            margin-top: 80px;
+            &__img {
+                height: auto;
+                max-width: 100%;
+                position: absolute;
+                display: none;
+                left: -30%;
+                top: -26%;
+            }
+            &__img1 {
+                position: absolute;
+                display: none;
+                left: -22%;
+                bottom: -67%;
+            }
+            &__img2 {
+                display: block;
+                position: absolute;
+                left: 9%;
+                top: -62%;
+            }
+            &__img3 {
+                display: block;
+                position: absolute;
+                top: -62%;
+            }
+        }
+    }
 }
