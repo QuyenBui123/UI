@@ -1,4 +1,4 @@
-<!DOCFunding amount: html>
+
     <html lang="en">
 
     <head>
@@ -17,24 +17,28 @@
                         <a href="index.html" class="header__logo">
                             <img src="./assets/images/logo_header.svg" alt="">
                         </a>
-                        <ul class="header-menu">
+    
+                        <ul class="header-menu" id="headerMenu">
                             <li class="header-menu-item">
                                 <a href="./Discover.html" class="header-menu-link">Discover initiatives</a>
                             </li>
                             <li class="header-menu-item">
-                                <a href="#" class="header-menu-link">Funded grants</a>
+                                <a href="./fundedgrants.html" class="header-menu-link">Funded grants</a>
                             </li>
                             <li class="header-menu-item">
-                                <a href="#" class="header-menu-link">Program expenses</a>
+                                <a href="./program.html" class="header-menu-link">Program expenses</a>
                             </li>
                             <li class="header-menu-item">
-                                <a href="#" class="header-menu-link">Blog</a>
+                                <a href="./blog.html" class="header-menu-link">Blog</a>
                             </li>
                             <li class="header-menu-item">
-                                <a href="#" class="header-menu-link">FAQ</a>
+                                <a href="./faq.html" class="header-menu-link">FAQ</a>
                             </li>
                             <button class="header-menu-button">Apply for grant</button>
                         </ul>
+                        <div class="header__toggle" id="menuToggle"><button class="header-menu-button1"
+                                >Apply</button>&#9776;
+                        </div>
                     </div>
                 </div>
             </header>
@@ -49,8 +53,6 @@
                         This is a living list
                         that will continue to update as ideas popup.</p>
                 </div>
-
-
             </div>
             <div class="filter">
                 <div class=" button filter__button">
@@ -64,177 +66,195 @@
             <div class="program">
                 <div class="discover">
                     <div style="margin-top: 16px;" class="discover__frame">
-                        <div class="discover__frame--content3">
-                            <div class="content-title1">
-                                <p class="content-title1__fun1">Funding Rate Page</p>
-                                <p class="content-title1__fun2">Page that provides a live look at all funding rates with
-                                    popular timeframes in annualized format
-                                </p>
-                                <div class="content-title1__fun3">
-                                    <p style="margin-right: 8px;">Funding amount:</p>
-                                    <p>$45,000 - $85,000</p>
+                            <div class="discover__frame--content3">
+                                <div class="content-title1">
+                                    <p class="content-title1__fun1">Funding Rate Page</p>
+                                    <p class="content-title1__fun2">Page that provides a live look at all funding rates
+                                        with
+                                        popular timeframes in annualized format
+                                    </p>
+                                    <div class="content-title1__fun3">
+                                        <p style="margin-right: 8px;">Funding amount:</p>
+                                        <p>$45,000 - $85,000</p>
+                                    </div>
                                 </div>
-
-
+                                <div class="badge">
+                                    <p class="badge__text">Funded</p>
+                                </div>
                             </div>
-                            <div class="badge">
-                                <p class="badge__text">Funded</p>
-                            </div>
-                        </div>
                     </div>
                     <div class="discover__frame">
-                        <div class="discover__frame--content3">
-                            <div class="content-title1">
-                                <p class="content-title1__fun1">CLI Trading Tool</p>
-                                <p class="content-title1__fun2">Self-hosted CLI tool leveraging the dYdX API to allow
-                                    all functionalities from a terminal
-                                </p>
-                                <div class="content-title1__fun3">
-                                    <p style="margin-right: 8px;">Funding amount:</p>
-                                    <p>$25,000 - $40,000</p>
+
+                        
+                            <div class="discover__frame--content3">
+                                <div class="content-title1">
+                                    <p class="content-title1__fun1">CLI Trading Tool</p>
+                                    <p class="content-title1__fun2">Self-hosted CLI tool leveraging the dYdX API to
+                                        allow
+                                        all functionalities from a terminal
+                                    </p>
+                                    <div class="content-title1__fun3">
+                                        <p style="margin-right: 8px;">Funding amount:</p>
+                                        <p>$25,000 - $40,000</p>
+                                    </div>
+
+
                                 </div>
-
-
+                                <div class="badge">
+                                    <p class="badge__text">Funded</p>
+                                </div>
                             </div>
-                            <div class="badge">
-                                <p class="badge__text">Funded</p>
-                            </div>
-                        </div>
                     </div>
                     <div class="discover__frame">
-                        <div class="discover__frame--content3">
-                            <div class="content-title1">
-                                <p class="content-title1__fun1">New Language SDKs</p>
-                                <p class="content-title1__fun2">Replicate existing Python SDK to new programming
-                                    languages with all the same features
-                                </p>
-                                <div class="content-title1__fun3">
-                                    <p style="margin-right: 8px;">Funding amount:</p>
-                                    <p>$25,000 - $40,000</p>
+
+                        
+                            <div class="discover__frame--content3">
+                                <div class="content-title1">
+                                    <p class="content-title1__fun1">New Language SDKs</p>
+                                    <p class="content-title1__fun2">Replicate existing Python SDK to new programming
+                                        languages with all the same features
+                                    </p>
+                                    <div class="content-title1__fun3">
+                                        <p style="margin-right: 8px;">Funding amount:</p>
+                                        <p>$25,000 - $40,000</p>
+                                    </div>
+
+
                                 </div>
-
-
+                                <div class="badge badge1">
+                                    <p class="badge__text">Open</p>
+                                </div>
                             </div>
-                            <div class="badge badge1">
-                                <p class="badge__text">Open</p>
-                            </div>
-                        </div>
                     </div>
                     <div class="discover__frame">
-                        <div class="discover__frame--content3">
-                            <div class="content-title1">
-                                <p class="content-title1__fun1">Liquidation Alert Tool</p>
-                                <p class="content-title1__fun2">Self-hosted tool that alerts the trader of upcoming
-                                    liquidation prices across multiple messaging venues
-                                </p>
-                                <div class="content-title1__fun3">
-                                    <p style="margin-right: 8px;">Funding amount:</p>
-                                    <p>$25,000 - $40,000</p>
+
+                        
+                            <div class="discover__frame--content3">
+                                <div class="content-title1">
+                                    <p class="content-title1__fun1">Liquidation Alert Tool</p>
+                                    <p class="content-title1__fun2">Self-hosted tool that alerts the trader of upcoming
+                                        liquidation prices across multiple messaging venues
+                                    </p>
+                                    <div class="content-title1__fun3">
+                                        <p style="margin-right: 8px;">Funding amount:</p>
+                                        <p>$25,000 - $40,000</p>
+                                    </div>
+
+
                                 </div>
+                                <div class="badge badge2">
+                                    <p class="badge__text">Completed</p>
+                                    <img src="./assets/imgs/sketched/fi_check.svg" alt="">
 
-
+                                </div>
                             </div>
-                            <div class="badge badge2">
-                                <p class="badge__text">Completed</p>
-                                <img src="./assets/imgs/sketched/fi_check.svg" alt="">
-
-                            </div>
-                        </div>
                     </div>
                     <div class="discover__frame">
-                        <div class="discover__frame--content3">
-                            <div class="content-title1">
-                                <p class="content-title1__fun1">Governance Dashboard</p>
-                                <p class="content-title1__fun2">Governance page to promote discussions, proposals,
-                                    delegation and voting
-                                </p>
-                                <div class="content-title1__fun3">
-                                    <p style="margin-right: 8px;">Funding amount:</p>
-                                    <p>$25,000 - $40,000</p>
+
+                        
+                            <div class="discover__frame--content3">
+                                <div class="content-title1">
+                                    <p class="content-title1__fun1">Governance Dashboard</p>
+                                    <p class="content-title1__fun2">Governance page to promote discussions, proposals,
+                                        delegation and voting
+                                    </p>
+                                    <div class="content-title1__fun3">
+                                        <p style="margin-right: 8px;">Funding amount:</p>
+                                        <p>$25,000 - $40,000</p>
+                                    </div>
+
+
                                 </div>
-
-
+                                <div class="badge">
+                                    <p class="badge__text">Funded</p>
+                                </div>
                             </div>
-                            <div class="badge">
-                                <p class="badge__text">Funded</p>
-                            </div>
-                        </div>
                     </div>
                     <div class="discover__frame">
-                        <div class="discover__frame--content3">
-                            <div class="content-title1">
-                                <p class="content-title1__fun1">Delegation Tool</p>
-                                <p class="content-title1__fun2">Webpage to allow active participants to market their
-                                    voting and enable direct delegation from DYDX holders
-                                </p>
-                                <div class="content-title1__fun3">
-                                    <p style="margin-right: 8px;">Funding amount:</p>
-                                    <p>$25,000 - $40,000</p>
+
+                        
+                            <div class="discover__frame--content3">
+                                <div class="content-title1">
+                                    <p class="content-title1__fun1">Delegation Tool</p>
+                                    <p class="content-title1__fun2">Webpage to allow active participants to market their
+                                        voting and enable direct delegation from DYDX holders
+                                    </p>
+                                    <div class="content-title1__fun3">
+                                        <p style="margin-right: 8px;">Funding amount:</p>
+                                        <p>$25,000 - $40,000</p>
+                                    </div>
+
+
                                 </div>
-
-
+                                <div class="badge">
+                                    <p class="badge__text">Funded</p>
+                                </div>
                             </div>
-                            <div class="badge">
-                                <p class="badge__text">Funded</p>
-                            </div>
-                        </div>
                     </div>
                     <div class="discover__frame">
-                        <div class="discover__frame--content3">
-                            <div class="content-title1">
-                                <p class="content-title1__fun1">Newsletter</p>
-                                <p class="content-title1__fun2">Weekly or Monthly newsletters promoting and educating
-                                    the dYdX platform
-                                </p>
-                                <div class="content-title1__fun3">
-                                    <p style="margin-right: 8px;">Funding amount:</p>
-                                    <p>$25,000 - $40,000</p>
+
+                        
+                            <div class="discover__frame--content3">
+                                <div class="content-title1">
+                                    <p class="content-title1__fun1">Newsletter</p>
+                                    <p class="content-title1__fun2">Weekly or Monthly newsletters promoting and
+                                        educating
+                                        the dYdX platform
+                                    </p>
+                                    <div class="content-title1__fun3">
+                                        <p style="margin-right: 8px;">Funding amount:</p>
+                                        <p>$25,000 - $40,000</p>
+                                    </div>
+
+
                                 </div>
-
-
+                                <div class="badge">
+                                    <p class="badge__text">Funded</p>
+                                </div>
                             </div>
-                            <div class="badge">
-                                <p class="badge__text">Funded</p>
-                            </div>
-                        </div>
                     </div>
                     <div class="discover__frame">
-                        <div class="discover__frame--content3">
-                            <div class="content-title1">
-                                <p class="content-title1__fun1">Academy Contributions</p>
-                                <p class="content-title1__fun2">Webpages, Courses, Glossaries and Youtube libraries
-                                    educating new users on dYdX
-                                </p>
-                                <div class="content-title1__fun3">
-                                    <p style="margin-right: 8px;">Funding amount:</p>
-                                    <p>$25,000 - $40,000</p>
+
+                        
+                            <div class="discover__frame--content3">
+                                <div class="content-title1">
+                                    <p class="content-title1__fun1">Academy Contributions</p>
+                                    <p class="content-title1__fun2">Webpages, Courses, Glossaries and Youtube libraries
+                                        educating new users on dYdX
+                                    </p>
+                                    <div class="content-title1__fun3">
+                                        <p style="margin-right: 8px;">Funding amount:</p>
+                                        <p>$25,000 - $40,000</p>
+                                    </div>
+
+
                                 </div>
-
-
+                                <div class="badge">
+                                    <p class="badge__text">Funded</p>
+                                </div>
                             </div>
-                            <div class="badge">
-                                <p class="badge__text">Funded</p>
-                            </div>
-                        </div>
                     </div>
                     <div class="discover__frame">
-                        <div class="discover__frame--content3">
-                            <div class="content-title1">
-                                <p class="content-title1__fun1">Discord bots</p>
-                                <p class="content-title1__fun2">Additional Discord bots that notify members of activity
-                                    on dYdX and governance
-                                </p>
-                                <div class="content-title1__fun3">
-                                    <p style="margin-right: 8px;">Funding amount:</p>
-                                    <p>$25,000 - $40,000</p>
+
+                        
+                            <div class="discover__frame--content3">
+                                <div class="content-title1">
+                                    <p class="content-title1__fun1">Discord bots</p>
+                                    <p class="content-title1__fun2">Additional Discord bots that notify members of
+                                        activity
+                                        on dYdX and governance
+                                    </p>
+                                    <div class="content-title1__fun3">
+                                        <p style="margin-right: 8px;">Funding amount:</p>
+                                        <p>$25,000 - $40,000</p>
+                                    </div>
+
+
                                 </div>
-
-
+                                <div class="badge badge1">
+                                    <p class="badge__text">Open</p>
+                                </div>
                             </div>
-                            <div class="badge badge1">
-                                <p class="badge__text">Open</p>
-                            </div>
-                        </div>
                     </div>
 
 
@@ -299,5 +319,14 @@
         </div>
 
     </body>
-
+    <script>
+        document.getElementById('menuToggle').addEventListener('click', function () {
+            var menu = document.getElementById('headerMenu');
+            if (menu.style.display === 'flex') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'flex';
+            }
+        });
+    </script>
     </html>
