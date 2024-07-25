@@ -107,9 +107,19 @@
     }
     &--row {
         margin-top: 25px;
-        margin-bottom: 24px;
+        margin-bottom: 16px;
         display: flex;
         position: relative;
+        & > h3 {
+            margin-top: 80px;
+            margin-bottom: 40px;
+        }
+        & > p {
+            font-weight: 450;
+            font-size: 18px;
+            color: $white_color;
+            line-height: 24px;
+        }
         & > img {
             position: absolute;
             right: 10px;

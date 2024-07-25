@@ -7,7 +7,6 @@
 .filter__button {
     gap: 24px;
     display: flex;
-
     .button {
         width: 395px;
         gap: 4px;
@@ -29,6 +28,7 @@
         &__funded,
         &__complete,
         &__all {
+            cursor: pointer;
             gap: 4px;
             font-size: 16px;
             border-radius: 7.29px;
@@ -52,6 +52,9 @@
         justify-items: center;
         justify-content: center;
 
+        & > a {
+            text-decoration: none;
+        }
         &--content {
             padding: 24px;
             width: 808px;
@@ -100,6 +103,7 @@
         margin-top: 24px;
     }
     .badge {
+        cursor: pointer;
         width: 85px;
         height: 32px;
         padding: 4px 16px 4px 16px;

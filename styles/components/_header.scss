@@ -13,9 +13,9 @@
         &-item {
             text-decoration: none;
         }
-        
+
         &-link {
-            font-family: 'Space Mono', monospace;
+            font-family: "Space Mono", monospace;
             text-decoration: none;
             color: $text_header;
             font-size: 16px;
@@ -25,11 +25,11 @@
             text-transform: capitalize;
             cursor: pointer;
         }
-        
+
         &-button {
             background-color: $button_color;
             padding: 16px 12px;
-            font-family: 'Circular', sans-serif;
+            font-family: "Circular", sans-serif;
             font-size: 16px;
             color: $white_color;
             border-radius: 7.29px;
@@ -42,9 +42,29 @@
                 background-color: #4f4dff;
             }
         }
+        &-button1 {
+            background-color: $button_color;
+            padding: 16px 12px;
+            font-family: "Circular", sans-serif;
+            font-size: 16px;
+            color: $white_color;
+            border-radius: 7.29px;
+            cursor: pointer;
+            line-height: 24px;
+            font-weight: 500;
+            outline: none;
+            margin-right: 24px;
+
+            &:hover {
+                background-color: #4f4dff;
+            }
+        }
     }
 }
-
+.header__toggle {
+    display: none;
+    margin-right: 32px;
+}
 .header__container {
     max-width: 1376px;
     height: 72px;
@@ -52,4 +72,36 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+@media (max-width: 768px) {
+    .header__toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    .header-menu {
+        width: 100%;
+        height: auto;
+        background-color: $color-bg-img;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        &-button {
+            display: none;
+        }
+    }
+
+    .header-menu-item {
+        margin: 16px 0;
+    }
+
+    .header-menu-link {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .header__container {
+        flex-direction: flex;
+        align-items: flex-start;
+    }
 }

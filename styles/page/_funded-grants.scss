@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     justify-items: center;
-    padding: 80px;
+    padding: 80px 80px 0px 80px;
     .container__images {
         display: flex;
         align-items: center;
@@ -20,6 +20,13 @@
                 border-radius: 16px;
                 text-align: center;
                 justify-content: center;
+            }
+            & > p {
+                margin-top: 16px;
+                text-align: center;
+                color: $color-text-secondary;
+                font-size: 14px;
+                font-weight: 450;
             }
         }
         &--avatar {
@@ -129,6 +136,17 @@
             text-align: left;
             font-family: Circular, sans-serif;
         }
+        &--des2 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            color: $white_color;
+            text-align: left;
+            font-family: Circular, sans-serif;
+        }
+        &--des1 {
+            margin-top: 32px;
+        }
         &--link {
             display: flex;
         }
@@ -222,7 +240,7 @@
 }
 .divider {
     border-top: 1px solid $color-border;
-    margin: 40px 0;
+    // margin: 40px 0;
     &--no-space {
         margin: 0;
     }
@@ -255,7 +273,7 @@
 }
 @media (max-width: 768px) {
     .funded__container {
-        padding: 20px; /* Reduce padding for mobile */
+        padding: 20px;
     }
     .funded-badge {
         margin-top: 24px;
@@ -263,20 +281,20 @@
         justify-items: center;
         justify-content: center;
         text-align: center;
-        flex-direction: column; /* Stack children vertically */
+        flex-direction: column;
         align-items: center;
     }
     .container {
         width: 100%;
         margin: 0;
         &__titledis {
-            font-size: 32px; /* Smaller font size for mobile */
+            font-size: 32px;
             line-height: 40px;
             text-align: center;
             margin-bottom: 24px;
         }
         &__text {
-            font-size: 14px; /* Adjust font size */
+            font-size: 14px;
             line-height: 20px;
             text-align: center;
             &--category {
@@ -290,7 +308,7 @@
             align-items: center;
             text-align: center;
             &--text {
-                font-size: 14px; /* Adjust font size */
+                font-size: 14px;
                 line-height: 20px;
             }
         }
@@ -298,18 +316,18 @@
             display: flex;
             align-items: center;
             text-align: center;
-            margin: 0; /* Remove margin */
+            margin: 0;
             &--fun {
                 margin-top: 16px;
                 margin-bottom: 16px;
                 margin-right: 12px;
-                font-size: 14px; /* Adjust font size */
+                font-size: 14px;
             }
             &--fun2 {
                 margin-bottom: 16px;
                 margin-top: 16px;
-                font-size: 16px; /* Adjust font size */
-                margin-left: 0; /* Remove margin */
+                font-size: 16px;
+                margin-left: 0;
             }
         }
         &__btn {
@@ -318,8 +336,8 @@
             justify-content: center;
             width: 100%;
             &--apply {
-                font-size: 14px; /* Adjust font size */
-                padding: 10px 16px; /* Adjust padding */
+                font-size: 14px;
+                padding: 10px 16px;
                 margin: 0;
             }
         }
@@ -330,36 +348,35 @@
 
             &--badge {
                 width: 100%;
-                margin-bottom: 16px; /* Add space between avatars */
+                margin-bottom: 16px;
             }
             &--badge1 {
-                
-                margin-bottom: 16px; /* Add space between avatars */
+                margin-bottom: 16px;
             }
             &--text {
-                font-size: 14px; /* Adjust font size */
+                font-size: 14px;
                 text-align: center;
             }
             .container__avatar--badge + .container__avatar--badge {
-                margin-left: 0; /* Remove left margin on subsequent avatars */
+                margin-left: 0;
             }
         }
     }
     .divider {
-        margin: 20px 0; /* Adjust margin for mobile */
+        margin: 20px 0;
     }
 
     .abc {
-        padding: 20px; /* Adjust padding for mobile */
+        padding: 20px;
     }
 
     .content-funded {
-        width: 100%; /* Full width for mobile */
-        padding: 0; /* Remove padding */
+        width: 100%;
+        padding: 0;
     }
 
     .funded-content {
-        display: block; /* Stack content vertically */
+        display: block;
     }
 
     .link-useful {
@@ -367,10 +384,10 @@
         align-items: center;
         text-align: center;
         & > a {
-            font-size: 14px; /* Adjust font size */
+            font-size: 14px;
         }
         & > img {
-            margin: 10px 0; /* Adjust margin for mobile */
+            margin: 10px 0;
         }
     }
 }
