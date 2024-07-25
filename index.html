@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
+
 <body>
     <div class="hero">
         <!-- Start header -->
@@ -17,7 +18,8 @@
                     <a href="index.html" class="header__logo">
                         <img src="./assets/images/logo_header.svg" alt="">
                     </a>
-                    <ul class="header-menu">
+
+                    <ul class="header-menu" id="headerMenu">
                         <li class="header-menu-item">
                             <a href="./Discover.html" class="header-menu-link">Discover initiatives</a>
                         </li>
@@ -31,10 +33,13 @@
                             <a href="./blog.html" class="header-menu-link">Blog</a>
                         </li>
                         <li class="header-menu-item">
-                            <a href="#" class="header-menu-link">FAQ</a>
+                            <a href="./faq.html" class="header-menu-link">FAQ</a>
                         </li>
                         <button class="header-menu-button">Apply for grant</button>
                     </ul>
+                    <div class="header__toggle" id="menuToggle"><button class="header-menu-button1"
+                            >Apply</button>&#9776;
+                    </div>
                 </div>
             </div>
         </header>
@@ -48,7 +53,7 @@
 
                 <div class="container__button">
                     <div class="container__button--discover">Discover RFPs</div>
-                    <div class="container__button--apply">Apply for grant<img src="./assets/images/arrow_right.svg"
+                    <div class="container__button--apply1">Apply for grant<img src="./assets/images/arrow_right.svg"
                             alt="">
                     </div>
                 </div>
@@ -244,7 +249,7 @@
                 <div class="frequently__fqa">
                     <div class="divider"></div>
                     <div class="frequently__fqa--row">
-                        <h3>How do I apply?</h3>
+                        <p>How do I apply?</p>
                         <img src="./assets/imgs/sketched/fi_plus.svg" alt="">
                     </div>
                 </div>
@@ -253,7 +258,7 @@
                 <div class="frequently__fqa">
                     <div class="divider"></div>
                     <div class="frequently__fqa--row">
-                        <h3>Can I apply as a U.S. based person/company?</h3>
+                        <p>Can I apply as a U.S. based person/company?</p>
                         <img src="./assets/imgs/sketched/fi_plus.svg" alt="">
                     </div>
                 </div>
@@ -262,7 +267,7 @@
                 <div class="frequently__fqa">
                     <div class="divider"></div>
                     <div class="frequently__fqa--row">
-                        <h3>How will I be compensated?</h3>
+                        <p>How will I be compensated?</p>
                         <img src="./assets/imgs/sketched/fi_plus.svg" alt="">
                     </div>
                 </div>
@@ -271,7 +276,7 @@
                 <div class="frequently__fqa">
                     <div class="divider"></div>
                     <div class="frequently__fqa--row">
-                        <h3>What type of project will qualify for a Grant?</h3>
+                        <p>What type of project will qualify for a Grant?</p>
                         <img src="./assets/imgs/sketched/fi_plus.svg" alt="">
                     </div>
                 </div>
@@ -280,7 +285,7 @@
                 <div class="frequently__fqa">
                     <div class="divider"></div>
                     <div class="frequently__fqa--row">
-                        <h3>What is the application timeline? When can I expect to hear back?</h3>
+                        <p>What is the application timeline? When can I expect to hear back?</p>
                         <img src="./assets/imgs/sketched/fi_plus.svg" alt="">
                     </div>
                 </div>
@@ -289,7 +294,7 @@
                 <div class="frequently__fqa">
                     <div class="divider"></div>
                     <div class="frequently__fqa--row">
-                        <h3>How can I increase my chances of getting funded?</h3>
+                        <p>How can I increase my chances of getting funded?</p>
                         <img src="./assets/imgs/sketched/fi_plus.svg" alt="">
                     </div>
                 </div>
@@ -298,7 +303,7 @@
                 <div class="frequently__fqa">
                     <div class="divider"></div>
                     <div class="frequently__fqa--row">
-                        <h3>How often do you approve new Rounds of funding?</h3>
+                        <p>How often do you approve new Rounds of funding?</p>
                         <img src="./assets/imgs/sketched/fi_plus.svg" alt="">
                     </div>
                 </div>
@@ -322,7 +327,7 @@
             <div class="project">
                 <div class="project__card app-card">
                     <div class="project__card--content">
-                        <h3 class=>1</h3>
+                        <h3>1</h3>
                         <div class="card_content">
                             <h4>Apply</h4>
                             <p>Submit a complete application to the dYdX</p>
@@ -368,7 +373,7 @@
             <div class=" cta">
                 <p class="cta__paragraph">Have a project in mind?</p>
                 <div class="cta__text mb-10">
-                    <h3 class="cta__header">Let’s create something awesome.</h3>
+                    <p class="cta__header">Let’s create something awesome.</p>
                 </div>
                 <div class=" btn btn-cta">Apply for grant
                     <img class="btn__icon" src="./assets/images/fi_arrow_right.svg" alt="arrow_right">
@@ -416,5 +421,15 @@
         <!--fo0ter-->
     </div>
 </body>
+<script>
+    document.getElementById('menuToggle').addEventListener('click', function () {
+        var menu = document.getElementById('headerMenu');
+        if (menu.style.display === 'flex') {
+            menu.style.display = 'none';
+        } else {
+            menu.style.display = 'flex';
+        }
+    });
+</script>
 
 </html>
